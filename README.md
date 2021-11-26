@@ -1,7 +1,7 @@
 ##### 1. Check out the repository
 
 ```bash
-git clone git@github.com:organization/project-name.git
+git clone https://github.com/AizuddinBadry/ruby-api-demo.git
 ```
 
 ##### 2. Create and setup the database
