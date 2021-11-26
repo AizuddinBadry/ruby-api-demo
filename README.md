@@ -21,8 +21,6 @@ You can start the rails server using the command given below.
 bundle exec rails s
 ```
 
-And now you can visit the site with the URL http://localhost:3000
-
 #### Accepting a new payload
 
 ##### 1. Add new payload structure to `params_helper.rb`
@@ -80,4 +78,10 @@ And now you can visit the site with the URL http://localhost:3000
     alias_attribute :new_params, :existing_attribute
   end
 end
+```
+
+#### Run Rspec test suites
+
+```
+bundle exec rspec spec 
 ```
